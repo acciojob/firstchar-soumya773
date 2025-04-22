@@ -11,7 +11,6 @@ function firstChar(text) {
   return trimmedText[0];
 }
 
-// Do not change the code below
-// Uncomment the following line to show the prompt popup
-// const text = prompt("Enter text:");
+// Prompt the user for input
+const text = prompt("Enter text:")
 alert(firstChar(text));
